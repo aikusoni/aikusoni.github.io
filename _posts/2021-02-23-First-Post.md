@@ -32,8 +32,9 @@ Sub-Header
 ></code>
 ></pre>
 
-* Italic *
-** Bold **
-*** Italic&Bold ***
+*Italic*
+**Bold**
+***Italic&Bold***
 
-~~ Strikethrough ~~
+~~Strikethrough~~
+g
