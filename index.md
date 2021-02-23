@@ -2,5 +2,6 @@
 
 # HELLO?
 
-[Link Test] (https://www.google.com/)
+Link: [Google][googlelink]
+[googlelink]: https://www.google.com 
 
