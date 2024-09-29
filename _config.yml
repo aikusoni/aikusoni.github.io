@@ -2,7 +2,7 @@ url: "https://aikusoni.github.io"
 paginate: 5  # 페이지당 표시할 게시글 수
 paginate_path: "/page:num"
 
-title: "김훈기 블로그"
+title: "Aikusoni"
 description: "김훈기 블로그"
 
 social:

@@ -2,10 +2,10 @@
 layout: default
 ---
 
-<h1>{{ page.category }}의 포스트</h1>
+<h1>{{ page.title }}</h1>
 
 <ul>
-    {% assign posts_in_category = site.posts | where:"category", page.category %}
+    {% assign posts_in_category = site.posts | where:"categories", page.category %}
     {% for post in posts_in_category %}
     <li>
         <a href="{{ post.url }}">{{ post.title }}</a>
