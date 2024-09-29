@@ -1,3 +1,1 @@
 # aikusoni.github.io
-
-ABC
