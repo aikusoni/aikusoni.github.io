@@ -1,0 +1,15 @@
+<header>
+    <div class="site-header">
+        <h1><a href="{{ site.url }}">{{ site.title }}</a></h1>
+        <p>{{ site.description }}</p>
+    </div>
+
+    <nav class="site-nav">
+        <ul>
+            <li><a href="{{ '/' | relative_url }}">Home</a></li>
+            <li><a href="{{ '/about/' | relative_url }}">About</a></li>
+            <li><a href="{{ '/blog/' | relative_url }}">Blog</a></li>
+            <li><a href="{{ '/study/' | relative_url }}">Study</a></li>
+        </ul>
+    </nav>
+</header>

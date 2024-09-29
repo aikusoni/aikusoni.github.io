@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{{ page.title }} - {{ site.title }}</title>
+    <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+</head>
+<body>
+{% include header.html %}
+<nav class="post-pagination">
+    <ul>
+        {% if page.previous %}
+        <li>
+            <a href="{{ page.previous.url }}" title="{{ page.previous.title }}">← Previous: {{ page.previous.title }}</a>
+        </li>
+        {% endif %}
+
+        {% if page.next %}
+        <li>
+            <a href="{{ page.next.url }}" title="{{ page.next.title }}">Next: {{ page.next.title }} →</a>
+        </li>
+        {% endif %}
+    </ul>
+</nav>
+<div class="content">
+    {{ content }}
+</div>
+<nav class="post-pagination">
+    <ul>
+        {% if page.previous %}
+        <li>
+            <a href="{{ page.previous.url }}" title="{{ page.previous.title }}">← Previous: {{ page.previous.title }}</a>
+        </li>
+        {% endif %}
+
+        {% if page.next %}
+        <li>
+            <a href="{{ page.next.url }}" title="{{ page.next.title }}">Next: {{ page.next.title }} →</a>
+        </li>
+        {% endif %}
+    </ul>
+</nav>
+{% include footer.html %}
+</body>
+</html>

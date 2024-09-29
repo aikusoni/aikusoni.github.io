@@ -1,12 +1,12 @@
 ---
 layout: post
-title: "Test Post"
-date: 2024-09-29 12:00:00 +0900
+title: "First Post"
+date: 2024-09-29 11:55:00 +0900
 categories: blog
 tags: [test-post]
 ---
 
-Test Post
+First Post
 ===
 
 블로그 작성 테스트를 위한 테스트 포스트
